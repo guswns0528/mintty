@@ -22,7 +22,7 @@ enum {
 };
 
 LOGFONT lfont;
-static HFONT fonts[FONT_MAXNO];
+static HFONT fonts[FONT_MAXNO+1];
 static bool fontflag[FONT_MAXNO];
 
 enum {LDRAW_CHAR_NUM = 31, LDRAW_CHAR_TRIES = 4};
